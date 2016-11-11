@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/yf/accountmanager/AccountDetailActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/yf/accountmanager/AccountListActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/yf/accountmanager/FileChooserActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/yf/accountmanager/adapter/AccountListAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/yf/accountmanager/adapter/BaseUnstableCursorAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/yf/accountmanager/adapter/ClipBoardAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/yf/accountmanager/adapter/FileListAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/yf/accountmanager/common/ExportImportTask.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/yf/accountmanager/common/FileManager.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/yf/accountmanager/common/IConstants.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/yf/accountmanager/sqlite/AccountService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/yf/accountmanager/sqlite/CommonService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/yf/accountmanager/sqlite/ISQLite.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/yf/accountmanager/ui/CustomizedDialog.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/yf/accountmanager/ui/FileChooser.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/yf/accountmanager/ui/StrAryPopWindow.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/yf/accountmanager/util/CommonUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/yf/accountmanager/util/FileUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/yf/accountmanager/util/MenuUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/yf/accountmanager/util/StringUtil.java" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>
