@@ -21,6 +21,8 @@
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/yf/accountmanager/util/FileUtils.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/yf/accountmanager/util/MenuUtil.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/yf/accountmanager/util/StringUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/home_dir.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/root_slash.png" charset="UTF-8" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>

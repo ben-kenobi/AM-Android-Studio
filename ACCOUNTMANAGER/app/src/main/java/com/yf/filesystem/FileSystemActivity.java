@@ -94,7 +94,7 @@ public class FileSystemActivity extends Activity implements OnClickListener,
 
     private GridView gv;
 
-    private ImageButton levelup, more, clipBoard, mkdir, toggleMode, refresh,
+    private ImageButton levelup, more, clipBoard, mkdir, toggleMode,toggleHome, refresh,
             newfile, delete, move, copy;
 
     private TextView title;
@@ -171,6 +171,7 @@ public class FileSystemActivity extends Activity implements OnClickListener,
         clipBoard.setOnClickListener(this);
         refresh.setOnClickListener(this);
         toggleMode.setOnClickListener(this);
+        toggleHome.setOnClickListener(this);
         delete.setOnClickListener(this);
         move.setOnClickListener(this);
         copy.setOnClickListener(this);
@@ -188,6 +189,7 @@ public class FileSystemActivity extends Activity implements OnClickListener,
         refresh = (ImageButton) findViewById(R.id.refresh);
         more = (ImageButton) findViewById(R.id.more);
         toggleMode = (ImageButton) findViewById(R.id.toggleMode);
+        toggleHome = (ImageButton) findViewById(R.id.toggleHome);
         floatMenu = findViewById(R.id.linearLayout1);
         dmc = findViewById(R.id.linearLayout2);
         delete = (ImageButton) findViewById(R.id.delete);
@@ -880,7 +882,9 @@ public class FileSystemActivity extends Activity implements OnClickListener,
             filesystemAdapter.refresh(false);
         } else if (v == toggleMode) {
             filesystemAdapter.toggleMode();
-        } else if (v == delete) {
+        }  else if (v == toggleHome) {
+            filesystemAdapter.toggleHome(toggleHome);
+        }else if (v == delete) {
             filesystemAdapter.updateSelectedList();
             if (filesystemAdapter.selectedList.isEmpty()) {
                 CommonUtils.toast("无选中文件");
