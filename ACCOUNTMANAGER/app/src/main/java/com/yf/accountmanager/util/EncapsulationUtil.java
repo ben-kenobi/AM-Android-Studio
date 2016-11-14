@@ -369,11 +369,7 @@ public class EncapsulationUtil {
                         .setWhen(System.currentTimeMillis())
                         .setTicker(title)
                         .build();
-                notification.contentView = new RemoteViews(context.getPackageName(),
-                        R.layout.notification_progress);
                 notification.flags |= Notification.FLAG_ONLY_ALERT_ONCE;
-                notification.contentView.setOnClickPendingIntent(R.id.imageButton1,
-                        PendingIntent.getBroadcast(context, 0, stopIntent, 0));
                 nm.cancel(notiId);
                 nm.notify(notiId, notification);
 
@@ -388,11 +384,7 @@ public class EncapsulationUtil {
                         .setWhen(System.currentTimeMillis())
                         .setTicker(title)
                         .build();
-                notification.contentView = new RemoteViews(context.getPackageName(),
-                        R.layout.notification_progress);
                 notification.flags |= Notification.FLAG_ONLY_ALERT_ONCE;
-                notification.contentView.setOnClickPendingIntent(R.id.imageButton1,
-                        PendingIntent.getBroadcast(context, 0, stopIntent, 0));
                 nm.cancel(notiId);
                 nm.notify(notiId, notification);
 
